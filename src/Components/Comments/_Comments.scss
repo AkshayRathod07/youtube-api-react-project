@@ -1,0 +1,26 @@
+@import "../../base.scss";
+
+.comments {
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2px solid $border-color;
+    color: #fff;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    padding: 0 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    // width: 100px;
+    // height: 45px;
+    background-color: #353945;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+}
